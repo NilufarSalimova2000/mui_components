@@ -1,8 +1,9 @@
 import React from "react";
-import { Button, Container, Tab, Tabs, TextField, Slider, Typography} from "@mui/material";
+import { Button, Container, Tab, Tabs, TextField, Slider, Typography, IconButton, Input} from "@mui/material";
 import { Badge} from "./style";
 import { CustomButton, CustomLInkButton } from "./components/ui/button/button";
-import { SpecificationsTable } from "./components/ui/info";
+import { Table } from "./components/ui/table";
+import { UserIcon } from "./assets/icons/user";
 
 function App() {
   const [value, setValue] = React.useState('one');
@@ -13,7 +14,7 @@ function App() {
 
   return (
     <>
-      <Container maxWidth="xl">
+      <Container maxWidth="lg">
         <Button variant="contained">Смотреть все</Button>
         <Button variant="outlined">Смотреть все</Button>
         <Button variant="text">Смотреть все</Button>
@@ -39,7 +40,11 @@ function App() {
         <Badge>Новинка</Badge>
         <CustomButton>Смотреть все</CustomButton>
         <CustomLInkButton>Все новинки</CustomLInkButton>
-        <SpecificationsTable />
+        <Table />
+        <IconButton><UserIcon/></IconButton>
+        <Typography variant="body1">Aster Q893A LVIZON LVIZON</Typography>
+        <Typography variant="h1">Новая коллекция ковров Venetta</Typography>
+        <Input placeholder="Поиск по товарам" />
       </Container>
     </>
   )

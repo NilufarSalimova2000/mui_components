@@ -47,6 +47,19 @@ export const theme = createTheme({
             fontSize: "40px",
             lineHeight: "130%",
             color: "#1d1d1d",
+        },
+        body1: {
+            fontWeight: 400,
+            fontSize: "18px",
+            lineHeight: "100%",
+            color: "#1d1d1d"
+        },
+        h1: {
+            fontWeight: 700,
+            fontSize: "60px",
+            lineHeight: "130%",
+            // color: "#f9f9f9",
+            width: "524px"
         }
     },
     breakpoints:{

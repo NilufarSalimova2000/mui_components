@@ -22,5 +22,4 @@ export const CustomLInkButton = styled(Link)`
   &:hover {
     color: ${theme.palette.primary[900]};
   }
-  
 `;

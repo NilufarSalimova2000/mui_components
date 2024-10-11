@@ -26,7 +26,7 @@ line-height: 140%;
 color: #1d1d1d;
 `;
 
- export const SpecificationsTable = () => {
+ export const Table = () => {
   return (
     <TableContainer>
       <TableRow>
