@@ -82,13 +82,32 @@ export const theme = createTheme({
             lineHeight: "100%",
             color: "#1d1d1d"
         },
+        body2: {
+            fontWeight: 400,
+            fontSize: "14px",
+            lineHeight: "140%",
+            color: "#1d1d1d"
+        },
+        h3: {
+            fontWeight: 400,
+            fontSize: "14px",
+            lineHeight: "140%",
+            color: "#1d1d1d",
+            opacity: 0.5
+        },
         h1: {
             fontWeight: 700,
             fontSize: "60px",
             lineHeight: "130%",
             color: "#f9f9f9",
             width: "524px"
-        }
+        },
+        h4: {
+            fontWeight: 700,
+            fontSize: "18px",
+            lineHeight: "130%",
+            color: "#1d1d1d",
+        },
     },
     breakpoints: {
         values: {
